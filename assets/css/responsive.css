@@ -1,0 +1,449 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+		/* header Start */
+		.navbar-nav {
+			background: #00A7BC !important;
+		}
+		/* header End */
+	/* banner Start */
+	.l-shape1 {
+		top: 180px !important;
+	}
+	.l-shape1 img {
+		width: 60% !important;
+	}
+	.l-shape2 {
+		top: 240px !important;
+		left: 5px !important;
+	}
+	.l-shape2 img {
+		width: 60% !important;
+	}
+	.banner-left-content {
+		margin-top: -55px !important;
+	}
+	.banner-left-content h2 {
+		font-size: 30px !important;
+		line-height: 28px !important;
+	}
+	.banner-left-content p {
+		margin-top: 5px !important;
+		line-height: 20px !important;
+	}
+	a.read-btn {
+		font-weight: 600;
+		padding: 10px 30px;
+	}
+	a.read-btn {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.banner-right-content {
+		left: 43%;
+		margin-top: 100px;
+	}
+	.r-shape1 {
+		bottom: 120px !important;
+	}
+	.r-shape2 {
+		bottom: 40px !important;
+	}
+	/* banner End */
+
+	/* courses Start */
+	.courses-left-shape2 img {
+		width: 60% !important;
+	}
+	.course-content {
+		padding: 40px !important;
+	}
+	/* courses End */
+
+	/* about Start */
+	.about-left-content {
+		padding-bottom: 20px !important;
+	}
+	.about-left-content img {
+		width: 100% !important;
+	}
+	.about-right-content {
+		margin-left: 30px;
+		margin-top: 20px !important;
+	}
+	
+	/* about End */
+
+	/* instructor Start */
+	.instructor-left-shape1 img {
+		width: 80% !important;
+	}
+	.instructor-left-shape1 {
+		top: -150px !important;
+		left: 270px !important;
+	}
+	.title h2 {
+		font-size: 30px !important;
+	}
+	.instructor-content {
+		top: 240px !important;
+	}
+	.instructor-content h2 {
+		font-size: 16px !important;
+	}
+	.instructor-content p {
+		font-size: 14px !important;
+	}
+	/* instructor End */
+
+	/* gallery Start */
+	.gallery-left-shape {
+		left: 0 !important;
+	}
+	.gallery-img-mt-15{
+		margin-top:0;
+	}
+	.gallery-footer-content p {
+		font-size: 14px !important;
+	}
+
+	/* gallery End */
+
+	/* app download Start */
+	.download-app-content h2 {
+		top: 40px !important;
+		right: 122px !important;
+		background: #4444 !important;
+		padding: 10px !important;
+		font-size: 25px !important;
+	}
+	#download-app a.download-btn {
+		bottom: 45px !important;
+		right: 150px !important;
+	}
+	/* app download End */
+
+	/* register now Start */
+	.register-content h2 {
+		font-size: 34px !important;
+	}
+	.register-content p {
+		font-size: 17px !important;
+	}
+	/* register now End */
+	
+	/* footer Start */
+	.footer-content{
+		text-align: center !important;
+	}
+	.footer-logo {
+		margin-left: 0px !important;
+	}
+	.footer-menu{
+		text-align: center !important;
+	}
+	.footer-find-us{
+		text-align: center !important;
+	}
+	/* footer End */
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and  (max-width: 767.98px) {
+		/* header Start */
+		.navbar-nav {
+			background: #00A7BC !important;
+		}
+		/* header End */
+	/* banner Start */
+	.l-shape1 {
+		top: 170px !important;
+	}
+	.l-shape1 img {
+		width: 50% !important;
+	}
+	.l-shape2 {
+		top: 165px !important;
+	}
+	.l-shape2 img {
+		width: 50% !important;
+	}
+	.banner-left-content{
+		margin-top: 40px;
+	}
+	.banner-left-content h2 {
+		font-size: 30px !important;
+		line-height: 25px !important;
+	}
+	.banner-left-content p {
+		font-size: 25px;
+		margin-top: 5px;
+		line-height: 18px;
+	}
+	a.read-btn {
+		font-size: 16px !important;
+		font-weight: 600 !important;
+		padding: 10px 30px !important;
+		margin-top: 10px !important;
+	}
+	.r-shape1 {
+		bottom: 70px !important;
+	}
+	.r-shape2 {
+		bottom: 0px !important;
+	}
+	/* banner End */
+
+	/* courses Start */
+	.courses-left-shape2 img {
+		width: 60% !important;
+	}
+	.course-content {
+		text-align: center;
+		padding: 40px !important;
+	}
+	/* courses End */
+
+	/* instructor Start */
+	.instructor-left-shape1 {
+		left: 80% !important;
+	}
+	.instructor-content {
+		top: 450px;
+	}
+	/* instructor End */
+	/* app download Start */
+	.download-app-content h2 {
+		top: 140px !important;
+		right: 280px !important;
+		background: #4444 !important;
+		padding: 10px !important;
+		font-size: 40px !important;
+	}
+	#download-app a.download-btn {
+		bottom: 140px !important;
+		right: 350px !important;
+	}
+	/* app download End */
+
+	/* footer Start */
+	.footer-content{
+		text-align: center !important;
+	}
+	.footer-logo {
+		margin-left: 0px !important;
+	}
+	.footer-menu{
+		text-align: center !important;
+	}
+	.footer-find-us{
+		text-align: center !important;
+	}
+	/* footer End */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	a.download-btn {
+		font-size: 16px;
+	}
+	/* header Start */
+	.navbar-nav {
+		background: #00A7BC;
+	}
+	/* header End */
+	/* banner Start */
+	#banner {
+		height: 100vh;
+	}
+	.l-shape1 img {
+		width: 60%;
+	}
+	.l-shape2 {
+		left: 20px;
+	}
+	.l-shape2 img {
+		width: 60%;
+	}
+	
+	.banner-left-content {
+		margin-top: -50px;
+	}
+	.banner-left-content h2 {
+		font-size: 45px;
+		line-height: 40px;
+	}
+	.banner-left-content p {
+		font-size: 25px;
+		margin-top: 10px;
+		line-height: 25px;
+	}
+	a.read-btn {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	/* banner End */
+
+	/* course Start */
+	.courses-left-shape2 img {
+		width: 60%;
+	}
+	.course-content {
+		padding: 0px 20px;
+	}
+	.course-content img {
+		width: 100%;
+	}
+	.course-content h2 {
+		font-size: 25px;
+	}
+	/* course End */
+
+	/* about us Start */
+	#about::after {
+		width: 59%;
+	}
+	.about-left-content img {
+		width: 100%;
+	}
+	.about-right-content {
+		margin-left: 20px;
+	}
+	.about-right-content h5 {
+		padding-bottom: 7px;
+	}
+	/* about us End */
+
+	/* instructor Start */
+	.instructor-content {
+		top: 670px;
+	}
+	/* instructor End */
+
+	/* download app Start */
+	.download-app-content h2 {
+		top: 50px;
+		right: 60px;
+		font-size: 30px;
+	}
+	#download-app a.download-btn {
+		bottom: 20px;
+		right: 88px;
+	}
+	/* download app End */
+
+	/* register now Start */
+	.register-content h2 {
+		font-size: 36px;
+	}
+	.register-content p {
+		padding-top: 5px;
+		font-size: 18px !important;
+	}
+	/* register now End */
+
+	/* footer Start */
+	.footer-logo {
+		margin-left: 35px;
+		padding-bottom: 0px;
+	}
+	.footer-content h2 {
+		font-size: 35px;
+		line-height: 30px;
+	}
+	.footer-content p {
+		font-size: 16px !important;
+		line-height: 20px;
+	}
+	.footer-menu {
+		margin-left: 25px;
+	}
+	.footer-menu a {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	/* footer End */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	a.download-btn {
+		font-size: 16px;
+	}
+	/* header Start */
+	.navbar-nav {
+		background: transparent;
+	}
+	/* header End */
+
+	/* banner Start */
+	.l-shape1 img {
+		width: 60%;
+	}
+	.l-shape2 img {
+		width: 60%;
+	}
+	.l-shape2 {
+		top: 290px;
+		left: 20px;
+	}
+	.banner-left-content {
+		margin-top: 0px;
+	}
+	.banner-left-content h2 {
+		font-size: 45px;
+		line-height: 40px;
+	}
+	.banner-left-content p {
+		margin-top: 8px;
+		line-height: 24px;
+	}
+	a.read-btn {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.r-shape1 {
+		bottom: 280px;
+	}
+	.r-shape2 {
+		bottom: 200px;
+	}
+	/* banner End */
+
+	/* courses Start */
+	.courses-left-shape2 img {
+		width: 60%;
+	}
+	/* courses End */
+
+	/* about us Start */
+	#about::after {
+		width: 60%;
+	}
+	.about-left-content img {
+		width: 100%;
+	}
+	.about-right-content {
+		margin-left: 30px;
+	}
+	/* about us End */
+
+	/* instructor Start */
+	.instructor-content {
+		top: 400px;
+	}
+	/* instructor End */
+
+	/* app download Start */
+	.download-app-content h2 {
+		top: 80px;
+		right: 90px;
+	}
+	#download-app a.download-btn {
+		bottom: 40px;
+		right: 145px;
+	}
+	/* app download End */
+}

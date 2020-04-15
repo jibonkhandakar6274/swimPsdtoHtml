@@ -1,0 +1,658 @@
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+a.read-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #e550ed;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+a.download-btn{
+    
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #00dde4;
+	padding: 15px 40px;
+	display: inline-block;
+	margin-top: 35px;
+}
+/* header Start */
+header {
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 9999;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header .bg-light {
+    background-color: transparent !important;
+}
+
+header .navbar-brand img {
+    width: 100%;
+}
+
+header .nav-link {
+    color: #fff !important;
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* header End */
+
+/* banner Start */
+#banner {
+    background: url('../image/banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh + 100px);
+    width: 100%;
+    position: relative;
+}
+
+.banner-left-content {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 100px;
+}
+
+.banner-left-content h2 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner-left-content p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+.l-shape1 {
+    position: absolute;
+    content: '';
+    top: 215px;
+    left: 0;
+}
+
+.l-shape2 {
+    position: absolute;
+    content: '';
+    top: 330px;
+    left: 100px;
+}
+
+.banner-right-content {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 73%;
+}
+
+.banner-right-content p {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.banner-right-content p span {
+    color: #01a7b3;
+}
+
+.r-shape1 {
+    position: absolute;
+    content: '';
+    bottom: 230px;
+    right: 0;
+    z-index: 2;
+}
+
+.r-shape2 {
+    position: absolute;
+    content: '';
+    bottom: 152px;
+    right: 160px;
+    z-index: 1;
+}
+
+/* banner End */
+
+/* feature section Start */
+#feature {
+    padding: 100px 0;
+    position: relative;
+}
+
+.feature-right-shape {
+    position: absolute;
+    content: '';
+    top: 66px;
+    right: 0
+}
+
+.feature-content {
+    text-align: center;
+}
+
+
+.feature-content h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 20px 0;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.feature-content p {
+    font-size: 16px;
+    font-weight: 500;
+    /* padding: 0 25px; */
+}
+
+.img-pt {
+    padding-top: 50px;
+}
+
+/* feature section End */
+
+/* our courses Start */
+#courses {
+    background: #432e8b;
+    padding: 100px 0;
+    position: relative;
+}
+
+.courses-left-shape1 {
+    position: absolute;
+    content: '';
+    top: -80px;
+    left: 50px;
+}
+
+.courses-left-shape2 {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    content: '';
+    z-index: 1;
+}
+
+#courses .title h2 {
+    color: #fff;
+}
+
+.courses-element {
+    margin-top: 100px;
+}
+
+.course-content img {
+    box-shadow: -20px -20px 0px #00dde4;
+}
+
+.course-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #00dde4;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.course-content p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.course-content a.read-btn {
+    margin-top: 20px;
+}
+
+/* our courses End */
+
+/* about us Start */
+#about {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#about::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 55%;
+    background: #00dde4;
+    z-index: -1;
+}
+
+.about-right-shape1 {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+.about-right-content h2 {
+    color: #00dde4;
+    text-align: left;
+}
+
+.about-right-content h5 {
+    text-align: left;
+    line-height: 25px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+.about-right-content p {
+    color: #444444;
+}
+
+/* about us End */
+
+/* instructor Start */
+#instructor {
+    background: #432e8b;
+    padding: 100px 0;
+    position: relative;
+}
+
+.instructor-left-shape1 {
+    position: absolute;
+    top: -200px;
+    left: 250px;
+    z-index: 1;
+}
+
+#instructor .title h2 {
+    padding-bottom: 100px;
+    color: #fff !important;
+}
+
+.instructor-inner {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.instructor-item {
+    position: relative;
+}
+
+.instructor-content {
+
+    position: absolute;
+    width: 50%;
+    background: #00dde4;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 500px;
+    padding: 25px;
+}
+
+.instructor-content h2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.instructor-content p {
+    font-size: 20px;
+    font-weight: 200 !important;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.social-icons {
+    padding-top: 50px;
+}
+
+.social-icons ul {
+    padding: 15px 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    color: #432e8b;
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.social-icons i {
+    width: 18px;
+}
+
+button.owl-prev span {
+    font-size: 60px;
+    position: absolute;
+    top: 35%;
+    left: -20px;
+    color: #fff;
+}
+
+button.owl-next span {
+    position: absolute;
+    top: 35%;
+    right: -20px;
+    font-size: 60px;
+    color: #fff;
+}
+
+/* instructor End */
+
+/* customer review Start */
+#customer-review {
+    background: url('../image/client-review.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+#customer-review::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(28, 61, 167, 0.5), rgba(28, 61, 167, 0.5), rgba(173, 85, 205, 0.4), rgba(173, 85, 205, 0.9));
+    z-index: -1;
+}
+
+#customer-review .title h2 {
+    color: #00dde4;
+}
+
+.customer-item p {
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+
+
+/* customer review End */
+
+/* gallery Start */
+#gallery{
+    position: relative;
+}
+.gallery-left-shape {
+	position: absolute;
+	content: '';
+	top: -50px;
+	left: 400px;
+}
+
+#gallery .title{
+    padding-top: 100px;
+}
+#gallery .title h2{
+    color: #00dde4;
+}
+#gallery .title p{
+    text-transform: uppercase;
+    color: #444444;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#gallery .container-fluid{
+    padding: 0 !important;
+}
+#gallery .row{
+    margin-right: 0 !important;
+}
+#gallery .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+	padding-right: 0 !important;
+}
+.gallery-item{
+    padding-top: 50px;
+}
+.gallery-img-mt-15{
+    margin-top: 15px;
+}
+.gallery-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.gallery-footer-content{
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.gallery-footer-content p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #444444;
+    text-transform: uppercase;
+}
+/* gallery End */
+
+/* donwload app Start */
+#download-app{
+    position: relative;
+}
+#download-app img{
+    width: 100%;
+}
+.download-app-content {
+	/* position: absolute;
+	content: '';
+	top: 110px;
+	right: 150px; */
+	text-align: center;
+}
+.download-app-content h2{
+    position: absolute;
+	content: '';
+	top: 110px;
+	right: 150px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#download-app a.download-btn {
+	position: absolute;
+	bottom: 70px;
+	right: 225px;
+}
+/* donwload app End */
+
+/* register now Start */
+#register-now{
+    background: url('../image/swimming-lady-bg.jpg');
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+}
+#register-now::before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right, rgba(220, 94, 232, 0.5),rgba(220, 94, 232, 0.6),rgba(220, 94, 232, 0.7)); */
+    background: #65126d;
+    opacity: .6;
+}
+.register-content{
+    text-align: left;
+    margin-top: 50px;
+}
+.register-content h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #00dde4;
+	text-transform: uppercase;
+}
+.register-content p {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 20px !important;
+    color: #fff;
+}
+.register-content a.download-btn{
+    margin:0;
+}
+/* register now End */
+
+
+/* footer Start */
+footer{
+    background: #432e8b;
+    padding: 50px 0;
+}
+.footer-logo {
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+.footer-content h2 {
+	font-size: 40px;
+	font-weight: 900;
+	color: #00dde4;
+	line-height: 35px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.footer-content p {
+	font-size: 20px !important;
+	color: #fff;
+	font-weight: 200 !important;
+}
+
+.footer-menu h2 {
+	font-size: 30px;
+	color: #00dde4;
+	padding-bottom: 50px;
+	padding-top: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.footer-menu a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.footer-find-us h2 {
+	font-size: 30px;
+	color: #00dde4;
+	padding-bottom: 50px;
+	padding-top: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer-find-us p{
+    color: #fff;
+    font-weight: 200 !important;
+}
+.footer-find-us .social-icons{
+    padding-top: 20px;
+}
+.footer-find-us .social-icons ul li{
+    text-align: center;
+}
+.footer-find-us .social-icons ul li a{
+    margin-left: 0;
+}
+/* footer End */
